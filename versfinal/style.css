@@ -1,0 +1,499 @@
+/*___________________________________________________Home page___________________________________________________*/
+            
+.Logo {
+    
+    width: 230.25px;  
+    position: static;
+    float: left;
+    margin-top: -5px;
+    
+}
+
+
+body {
+    background-color: #FAFAFC;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    margin-top: 32px;
+    margin-left: 57px;
+    margin-bottom: 32px;
+    margin-right: 62px;
+    border: 4px solid transparent;
+
+}
+
+.Pages {
+    position: static;
+
+    width: 46px;
+    height: 23px;
+
+    color: #212730;
+    font-weight: 560;
+    font-size: 16px;
+    line-height: 12px;
+
+    padding: 10px;
+
+    text-decoration: none;
+}
+
+#PAGES_X {
+    height: 45px;
+    width: 400px;
+    margin-left: 13%;
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+    
+
+}
+
+#home_page {
+    color: #1E3ABB;
+   
+    
+}
+
+#buttons {
+    position: static;
+    width: 300px;
+    height: 50px;
+    padding: 0px;
+    text-align: right;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: -0px;
+}
+
+#SignIn {
+    color: #253994;
+    background-color: #FAFAFC;
+    border: none;
+    width: 110px;
+    height: 23px;
+    left: 1019px;
+    top: 71px;
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#Register {
+    width: 130px;
+    height: 50px;
+
+    background: #1E3ABB;
+    border: none;
+    border-radius: 4px;
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+#Slegon1 {
+    width: 597px;
+    height: 243px;
+    margin-top: 90px;
+    font-weight: 700;
+    font-size: 57.5px;
+    line-height: 85px;
+    letter-spacing: 0.01em;
+    color: #212730;
+    background: transparent;
+
+}
+
+.highlight {
+    color: #1E3ABB;
+}
+
+#Slegon2 {
+    width: 597px;
+    height: 55px;
+
+    font-weight: 500;
+    font-size: 16.2px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+
+    color: #8C8C8C;
+    background: transparent;
+
+    transform: translateY(-20px);
+}
+
+#Start {
+    width: 145px;
+    height: 50px;
+    border: none;
+
+    background: #1E3ABB;
+    border-radius: 5px;
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    transform: translateY(-9px);
+
+}
+
+#cercle1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    z-index: -1;
+    left: -53px;
+    top: 160px;
+    width: 418px;
+    height: 418px;
+
+    border: 3.5px solid #F2F1F8;
+    border-radius: 50%;
+}
+
+#cercle2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    left: 782px;
+    top: 130px;
+    z-index: -3;
+
+    border: 2.5px solid rgba(125, 146, 243, 0.61);
+    border-radius: 50%;
+}
+
+#cercle3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 844px;
+    top: 520px;
+    z-index: 0;
+
+    background: #1E3ABB;
+
+    border-radius: 50%;
+}
+
+#cercle4 {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 1200px;
+    top: 450px;
+    z-index: -2;
+
+    background: #1E3ABB;
+
+    border-radius: 50%;
+}
+
+#cercle5 {
+
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 1287px;
+    top: 269px;
+
+    background: #1E3ABB;
+    border-radius: 50%;
+}
+
+#cercle6 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 820px;
+    top: 120px;
+    z-index: -1;
+
+    background: url(photos/3ddada.png)100%, rgba(19, 35, 179, 0.466);
+    background-repeat: no-repeat;
+
+    border-radius: 50%;
+}
+
+
+/*___________________________________________________Page info-notes___________________________________________________*/
+
+
+.general_body {
+    background-color: #FAFAFC;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    position: sticky;
+    top: 0px;
+
+    padding: 0;
+    margin: 0;
+    background-color: #FAFAFC;
+    box-sizing: border-box;
+
+    margin-top: 25px;
+    margin-left: 57px;
+    margin-right: 79px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo1 {
+    width: 230.25px;  
+    position: static;
+    float: left;
+}
+
+.PAGES_Y {
+    width: 515px;
+    background-color: transparent;
+}
+
+.Pages1 {
+    color: #212730;
+    font-weight: 560;
+    font-size: 16px;
+    line-height: 12px;
+
+    padding: 10px;
+
+    text-decoration: none;
+}
+
+#page_results {
+    color: #1E3ABB;
+    
+}
+
+.profile {
+    width: 110px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.formulaire_p1 {
+    margin-top: 2%;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: transparent;
+    
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulaire_p2 {
+    margin-left: 303px;
+    margin-right: 303px;
+    background-color: transparent;
+    
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+label {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+input{
+    height: 0px;
+    border: 1px solid #8C8C8C;
+    border-radius: 7px;
+    background: #FFFFFF;
+    padding: 20px;
+
+    font-size: 12px;
+    color: #727272;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+}
+.container input {
+    color: black;
+    font-weight: 500;
+}
+#buttun{
+    color:  #1E3ABB;
+margin-top: 75px;
+margin-left: 20%;
+border-radius: 5px;
+background: none;
+width: 100px;
+height: 30px;
+border: 1px solid #1E3ABB;
+}
+#gpa-display{
+    margin-left: 580px;
+    margin-right: 520px;
+    font-weight: 600;
+    color: #212730;
+    margin-top: -68px;
+    transform: translateY(-10px);
+}
+.buttons2{
+    height: 90px;
+    margin-left: 520px;
+    margin-right: 520px;
+    background-color: transparent;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Calcul_Button{
+    width: 133px;
+    height: 48px;
+    background-color: transparent;
+
+    border: 1px solid #1E3ABB;
+    border-radius: 5px;
+
+    font-family: 'Poppins',sans-serif;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #1E3ABB;
+}
+
+#PDF{
+    width: 133px;
+    height: 48px;
+
+    background: #1E3ABB;
+    border: 1px solid #1E3ABB;
+    border-radius: 5px;
+
+    font-family: 'Poppins',sans-serif;
+
+    font-weight: 530;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:2px underline #1E3ABB;
+}
+/*___________________________________________________Calculator__________________________________________________*/
+
+#calcul{
+    color: #1E3ABB;
+}
+
+.container2 {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 70%;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#display {
+    flex: 0;
+    background-color: transparent;
+    border:2px solid #212730;
+    border-radius: 10px;
+    text-align: right;
+    height: 85px;
+    line-height: 170%;
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+.buttons {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.button {
+    height: 71px;
+    width: 240px;
+    border: 0.5px solid lightgray;
+    border-radius: 2px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: #1E3ABB;
+    color: white;
+
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+button{
+    cursor: pointer;
+}

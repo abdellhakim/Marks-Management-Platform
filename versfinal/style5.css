@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.general_body {
+    background-color: #FAFAFC;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.devinfo{
+    margin-top: 100px;
+    margin-left: 25%;
+    
+}
+.pic{
+    margin-left: 20px;
+}
+.devinfo h1{
+    font-size: 25px;
+    color: #212730;
+}
+.devinfo h3{
+    color: #212730;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.devinfo h4{
+    margin-top: 33px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.github{
+  
+   font-size: 15px; 
+}
+
+a:visited{
+color: #000;
+}
+
+.devinfo2{
+    margin-top: -377px;
+    margin-left:720px;
+    
+}
+.devinfo2 h1{
+    font-size: 25px;
+    color: #212730;
+    margin-left: 50px;
+}
+.devinfo2 h3{
+    color: #212730;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 80px;
+}
+.devinfo2 h4{
+    margin-top: 33px;
+    font-size: 15px;
+    font-weight: 100;
+ 
+}
+.nav_bar {
+    position: sticky;
+    top: 0px;
+
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+
+    margin-top: 29px;
+    margin-left: 61px;
+    margin-right: 84px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo1 {
+    width: 230.25px;  
+    position: static;
+    float: left;
+}
+
+.PAGES_Y {
+    width: 515px;
+    background-color: transparent;
+    
+}
+
+.Pages1 {
+    color: #212730;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 12px;
+
+    padding: 10px;
+
+    text-decoration: none;
+}
+
+#contact {
+    color: #1E3ABB;
+    
+}
+
+.profile {
+    width: 110px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:2px underline #1E3ABB;
+}

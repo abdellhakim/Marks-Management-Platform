@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.divider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left-handside{
+    flex: 1;
+    background: #fff;
+    height: 100%;
+    background-color: #fafafc;
+    
+}
+.right-handside{
+
+    flex: 1;
+    background:url('photos/Rectangle\ 7.png') ;
+    height: 100%;
+    
+}
+.logo{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 215px;
+}
+.h1{
+    color: #0F0438;
+    font-size: 25px;
+    margin-left: 25%;
+    margin-top: 10%;
+   
+}
+.h3{
+color: #716F79;
+font-size:  12px; 
+margin-left: 25%;
+font-weight: lighter;
+}
+.signform {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+.signform label{
+    font-size: 13px;
+}
+::placeholder{
+    font-size: 9.25px;
+}
+.signform input{
+    font-size: 12px;
+    border: 1px solid #C7C7C7;
+    border-radius: 7px;
+    padding: 20px;
+    width: 300px;
+    height: 41px;
+}
+.pswd{
+    margin-top: 10px;
+}
+.links{
+    font-size: 10px;
+    color:#3C51B4 ;
+   margin-left: 185px;
+    margin-top:12px;
+
+}
+.remember-forgot label{
+    
+    font-weight: 500;
+    margin-top: -10px;
+ 
+    font-size: 10px;
+    display: flex;
+    
+
+}
+.remember-forgot input{
+    width: 15px;
+  height: 15px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.btn{
+    line-height: 2px;
+    color: white;
+    height: 41px;
+    width: 300px;
+    margin-top: 23px;
+    margin-left: 0%;
+    border-radius: 7px;
+    background-color: #24379A;
+    border: solid #24379A;
+    font-size: 15px;
+
+}
+#check{
+    color: red;
+}
+.alrdyacc{
+    margin-left: 10%;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 15px;
+   
+}
+.alrdyacc h4{
+    font-weight: 500;
+}
+.all{
+    margin-top: 45px;
+}
+ a {
+    color: #3C51B4;
+    text-decoration: none;
+}
+ a:hover {
+    color: blue;
+    text-decoration: underline;
+}

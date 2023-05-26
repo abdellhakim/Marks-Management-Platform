@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.divider{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left-handside{
+    flex: 1;
+    height: 100%;
+    background-color: #fafafc;
+    
+}
+.right-handside{
+
+    flex: 1;
+    background:url('photos/Rectangle\ 7.png') ;
+    height: 100%;
+}
+.logo{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 215px;
+}
+.h1{
+    color: #0F0438;
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: -3%;
+   
+}
+.h3{
+color: #716F79;
+font-size:  12px; 
+margin-left: 28%;
+font-weight: lighter;
+}
+.signform {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+.signform label{
+    font-size: 13px;
+}
+::placeholder{
+    font-size: 9.25px;
+}
+.signform input{
+    font-size: 12px;
+    border: 1px solid #C7C7C7;
+    border-radius: 7px;
+    padding: 20px;
+    width: 300px;
+    height: 41px;
+}
+
+.btn{
+    color: white;
+    height: 41px;
+    width: 300px;
+    margin-top: 23px;
+    margin-left: 25%;
+    border-radius: 7px;
+    background-color: #24379A;
+    border: solid #24379A;
+    padding: 1%;
+
+}
+
+.alrdyacc {
+    margin-left: 43%;
+    font-size: 11.5px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.all{
+    margin-top: 40px;
+}
+.icon{
+    width: 10px;
+    height: 9.75px;
+    margin-left:-98px ;
+   
+}
+.keyicon{
+    margin-left: 42.5%;
+    margin-top: 50px;
+    width: 55px;
+}
+.alrdyacc a {
+    color: #3C51B4;
+    text-decoration: none;
+}
+.alrdyacc a:hover {
+    color: blue;
+    text-decoration: underline;
+}

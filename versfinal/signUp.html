@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap">
+    <link rel="icon" href="photos/logo-uiz.png">
+    <link rel="stylesheet" href="style4.css">
+    <title>Sign Up | ESTA</title>
+
+
+</head>
+<body>
+    
+    <main>
+        <div class="divider">
+            <div class="left-handside">
+                <a href="index.html"><img class="logo" src="photos/image 2.png" alt=""></a>
+             <div class="all" >
+            
+                <h1 class="h1">Get Started Now</h1>
+            <h3 class="h3">Enter your credentials to  create your account</h3>
+            
+           
+               
+        <form action="login.html" >
+        <div class="signform">
+                    <label for="email">Full name <a id="check">*</a></label>
+              <br>
+		        <input type="text" id="name" name="email" required placeholder="Enter your full name">
+                        <div class="cne">
+		        <label  for="cne">CNE <a id="check">*</a></label>
+                <br>
+                
+		        <input type="text" id="pswd" name="password" required placeholder="Enter your CNE">
+                
+                    </div>
+
+        </div>
+            <div class="restofform">
+                <label for="email"> Email <a id="check">*</a></label>
+                <br>
+                  <input type="email" id="email" name="email" required placeholder="Enter your Email">
+                  <br>
+                    <div class="mail"> 
+                        <label for="pswd"> password <a id="check">*</a></label>
+                        <br>
+                        <input type="password" id="password" name="email" required placeholder="Enter your password">
+                    </div>
+        </div>
+         <div class="genbirth">
+                    <div class="birthdate"> 
+                    <label for="birth"> Birth date <a id="check">*</a></label>
+                <br>
+                  <input type="date" id="birth" name="date" required >
+                </div>
+                 
+
+        </div>
+        <div class="gender">
+            <label for="gender">Gender
+                 <br>
+                
+                 <input type="radio" name="gender" id="" value="male">  Male 
+                 <input type="radio" name="gender" id="fem" value="female">    Female
+            </label>
+                </div>   
+        <div class="remember-forgot">
+            <label > <input type="checkbox" required> I agree to the <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Terms & Privacy</a> </label >
+            
+            </div>
+    
+                
+                <input type="submit" value="Sign Up" class="btn" onclick="addData()" > 
+               
+              
+            </form>
+          
+
+                
+                <div class="alrdyacc">
+                    <h4 class="acc">Have an account? <a href="login.html">Sign In</a></h4>
+                     
+                </div>
+                
+         </div>
+
+            </div>
+            <div class="right-handside">
+            </div>
+        </div>
+    </main>
+    <script src="registration.js" > </script>
+</body>
+</html>
